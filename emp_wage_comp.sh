@@ -1,7 +1,7 @@
 echo "Employee Information"
 
 #Check  the Employee is Present or Absent
-work_hour()
+calculate()
 {
     emp_rate_per_hr=20
     max_work_hrs=100
@@ -59,6 +59,6 @@ echo "Total work day is" $tot_work_day
 total_wage=$(($tot_work_hrs * $emp_rate_per_hr))
 echo "Total wage is " $tot_wage
 }
-work_hour
+calculate
 
 echo "total work hrs is" $tot_work_hrs
